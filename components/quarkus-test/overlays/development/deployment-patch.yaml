@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: quarkus-test
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ezhang-tenant/quarkus-test/quarkus-test@sha256:503026252bfe85fd3709cda19136b7aa4ad69bb65464dda265eb3671e56a69d0
+        name: my-java-quarkus
+        resources: {}
+status: {}
