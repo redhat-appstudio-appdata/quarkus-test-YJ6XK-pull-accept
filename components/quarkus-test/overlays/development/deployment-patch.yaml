@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ezhang-tenant/quarkus-test/quarkus-test@sha256:2de9793869129b5f66ecbbff9d52049a23119f280436babc6967ddfa8f8d638e
+      - image: quay.io/redhat-user-workloads/ezhang-tenant/quarkus-test/quarkus-test@sha256:503026252bfe85fd3709cda19136b7aa4ad69bb65464dda265eb3671e56a69d0
         name: my-java-quarkus
         resources: {}
 status: {}
